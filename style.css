@@ -1,0 +1,171 @@
+.top {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  left: 10px;
+  width: auto;
+  height: 50px;
+  bottom: 400px;
+
+  overflow: hidden;
+  background-color: #333;
+}
+.c
+{
+ font-family: serif;
+ font-weight: bold;
+ font-style: italic;
+ color: blue;
+}
+.butt{
+	float: right;
+	display: block;
+ color: #f2f2f2;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+  width:auto;
+  background-color: 
+}
+
+input[type=text], input[type=password],input[type=email],input[type=radio]{
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=text]:focus,input[type=email]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 250px;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 10px 0 10px 0;
+  padding:45px;
+}
+
+img.avatar {
+  width: 10%;
+  border-radius: 5%;
+}
+.login {
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+.container {
+  padding: 100px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left:400px;
+  top:50px;
+}
+.block{
+	width:240px;
+	float:right;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.t {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  left: 10px;
+  width: auto;
+  height: 75px;
+  bottom: 400px;
+
+  overflow: hidden;
+  background-color: pink;
+}
+#cont{
+	padding: 100px;
+	background-color: lightblue;
+	width:auto;
+	height: 350px;
+}
+.fp{
+	position: absolute;
+	right:100px;
+	left: 100px;
+	width: 500px;
+	height:450px;
+	font-family: serif;
+}
+.sp{
+	position: absolute;
+	right:20px;
+	left: 700px;
+	width: 600px;
+	height:450px;
+	font-family: serif;
+}
+footer {
+  display: block;
+}
+.td{
+	position: absolute;
+	left: 105px;
+	
+}
+.box {
+ width: 300px;
+ border: 15px solid pink;
+ padding: 20px;
+ margin: 20px;
+ height:20px;
+}
+.h{
+  padding: 5px;
+  position: absolute;
+  top:23px;
+  left:106px;
+}
+.bb{
+  width:800px;
+  height:250px;
+  margin:10px;
+}
+.m{
+  position:absolute;
+  top:550px;
+  left:20px;
+  width:300px;
+  height:100px;
+}
+.mm{
+  position:absolute;
+  top:550px;
+  left:424px;
+  width:300px;
+  height:100px;
+}
+.mmm{
+  position:absolute;
+  top:550px;
+  padding:40px;
+  left:824px;
+  width:300px;
+  height:100px;
+}
