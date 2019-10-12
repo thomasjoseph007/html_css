@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>signup</title>
+</head>
+<style type="text/css">
+	/*Style for main div*/
+	.reg{
+	  padding: 200px;
+	height: auto;
+		  width: 400px;
+		  position: absolute;
+		  left:120px;
+		  top:50px;
+		   background-color: pink;
+}
+	/*style for input types*/
+	input[type=text], input[type=password],input[type=email],input[type=radio]{
+		position: absolute;
+		left:278px;
+		height: 30px;
+		  width: 300px;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  display: inline-block;
+		  border: 1px solid #ccc;
+		  box-sizing: border-box;
+}
+/*focusing input fileds*/
+input[type=text]:focus,input[type=email]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+/*Style for label*/
+label{
+	position: absolute;
+	left:196px;
+	font-size: 17px;
+	padding: 4px;
+	height: 30px;
+}
+/*Style for button*/
+button {
+  background-color: green;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+
+}
+/*Style for select*/
+select{
+	position: absolute;
+		left:278px;
+		height: 30px;
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+</style>
+<body>
+<div class="reg">
+	<h1 style="position: absolute;left: 280px;top:118px;">Registration Form</h1>
+	<!-- form starts -->
+	<form action="#" method="post">
+		<label >  Firstname</label>
+	    <input type="text"  name="uname" required><br><br>
+	    <label>Lastname</label>
+	    <input type="text"  name="uname" required><br><br>
+	    <label>Username</label>
+	    <input type="text"  name="uname" required><br><br>
+	  	<label> Password</label>
+	   	<input type="password"  name="psw" required><br><br>
+	    <label>Email</label>
+	    <input type="email"  name="email" required><br><br>
+	   	<label>MobileNo:</label><input type="text"  name="psw" required><br><br>
+	   	<label>City</label>	
+	   	<select>
+	   		<option disabled="">select</option>
+		    <option value="Kottayam">Kollam</option>
+		    <option value="Kollam">Kottayam</option>
+		    <option value="Kochi">Kochi</option>
+		    <option value="TVM">Kozhikode</option>
+		</select><br><br><br>
+		<center>
+	   <button type="submit">SignUp</button><a href="#">Back to home</a>
+	   </center>
+</center>
+<!-- form ends -->
+</form>	
+</div>
+</body>
+</html>
