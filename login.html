@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+</head>
+<style type="text/css">
+	/*style for main div*/
+	.log{
+	  padding: 200px;
+	height: 80px;
+		  width: 350px;
+		  position: absolute;
+		  left:220px;
+		  top:50px;
+		   background-color: lightblue;
+}
+/*style for input fileds*/
+	input[type=text], input[type=password],input[type=email],input[type=radio]{
+		position: absolute;
+		left:278px;
+		height: 30px;
+		  width: 300px;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  display: inline-block;
+		  border: 1px solid #ccc;
+		  box-sizing: border-box;
+}
+input[type=text]:focus,input[type=email]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+/*Style for label*/
+label{
+	position: absolute;
+	left:196px;
+	font-size: 17px;
+	padding: 4px;
+	height: 30px;
+}
+/*style for button*/
+button {
+  background-color: green;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+
+}
+
+</style>
+<body>
+<div class="log">
+	<h1 style="position: absolute;left: 280px;top:118px;">Login Form</h1>
+	<form action="#" method="post"><!-- form starts -->
+	    <label>Username</label>
+	    <input type="text"  name="uname" placeholder="Enter username" required><br><br>
+	  	<label> Password</label>
+	   	<input type="password"  name="psw" placeholder="Enter password" required><br><br>
+		<center>
+	   <button type="submit">Login</button><a href="#">New Member</a>
+	   </center>
+</center>
+</form>	<!-- form ends -->
+</div>
+</body>
+</html>
