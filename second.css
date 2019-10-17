@@ -1,0 +1,140 @@
+.side{
+	width:16em;
+	left:2em;
+	height: 40em;
+	background-color:#171313f2;
+	border-right: :1px solid black;
+}
+.logo{
+	position: absolute;
+	width:20em;
+	height: 3em;
+	top: 0em;
+	left:-3em;
+	padding: 2px 0px 3px 54px;
+}
+.icons{
+	margin-top: 10em;
+	margin-bottom: 2em;
+
+}
+.link{
+	display: block;
+	color: white;
+	padding-top:1em; 
+	padding: 21px 23px 20px;
+}
+.link:hover{
+background-color: #0bb76c;
+}
+.r{
+	position: absolute;
+	left: 4em;
+	top:0em;
+	height: 8em;
+	width: 75em;
+	border-bottom: 1px solid #eeeeee;
+}
+.rr{
+	position: absolute;
+	left: 6em;
+	top:9em;
+	height: 5em;
+	width: 75em;
+}
+.rrr{
+	position: absolute;
+	left: 6em;
+	top:18em;
+	height: 5em;
+	width: 75em;
+}
+.rw{
+	position: absolute;
+	left: 54em;
+	height: 5em;
+	width: 11em;
+	top:1em;
+}
+.rwt{
+	position: absolute;
+	left: -3em;
+	height: 5em;
+	width: 11em;
+	top:5em;
+}
+.bttn{
+	position: absolute;
+	width:3em;
+	left: 6em;
+	top: 3em;
+	
+	
+}
+.bttn button {
+  width: 150px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius:13px;
+}
+.btttn{
+	position: absolute;
+	width:3em;
+	left: 19em;
+	top: 3em;
+	
+	
+}
+.btttn button {
+  width: 150px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.drop{
+	position: absolute;
+	width:3em;
+	left: 48em;
+	top: 4em;	
+}
+
+.dropp{
+	position: absolute;
+	width:3em;
+	left: 62em;
+	top: 4em;	
+}
+.rr button{
+	width: 23em;
+	height: 3em;
+	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+}
+input[type=text], input[type=password],input[type=email]{
+  width: 200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.rrr input[type=text]{
+  width: 15em;
+  padding: 11px 23px 20px 1px;
+  
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 0em;
+}
+select{
+	width:3em;
+	border: 1px solid #ccc;
+ 	box-sizing: border-box;
+ 	padding: 6px 2px 6px 4px;
+}
+thead{
+	background-color: #ddd;
+  	border-bottom:1px solid #ccc;
+}
